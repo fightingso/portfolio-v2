@@ -34,6 +34,7 @@
     flex-direction: row;
     align-items: center;
     list-style: none;
+
   }
 
   .header__title {
@@ -66,5 +67,33 @@
 
   .header__links__item__link:hover {
     border-bottom: 1.5px solid #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 2rem;
+    }
+
+    .header__title {
+      margin-right: 0;
+      margin-left: 0;
+    }
+
+    .header__title__link {
+      font-size: 2rem;
+    }
+
+    .header__links_item {
+      margin-top: 20px;
+      margin-left: 15px;
+      margin-right: 0;
+    }
+
+    .header__links__item__link {
+      font-size: 0.8rem;
+    }
   }
 </style>

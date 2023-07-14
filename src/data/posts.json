@@ -1,12 +1,12 @@
 {
   "data": [
     {
-      "body": "<h2>テスト</h2>\n<p>てすと</p>\n<h2>Svelte</h2>\n<p>There are already many posts about <a href=\"https://svelte.dev/\">Svelte</a> by other people and reading the official document should be enough to start making stuff with it.</p>\n<p>The syntax was very straightforward and I liked it a lot.</p>\n<h2>Sveltekit</h2>\n<p>According to the <a href=\"https://kit.svelte.dev/\">official document</a>,</p>\n<blockquote>\n<p>SvelteKit is a framework for building web applications of all sizes, with a beautiful development experience and flexible filesystem-based routing.</p>\n</blockquote>\n<h2>Vite</h2>\n<p>Sveltekit internally uses <a href=\"https://vitejs.dev/\">Vite</a> as its build tool.</p>\n<p>This surely provided the <code>faster and leaner</code> experince they promised. The <code>HMR</code> was absolutely instantaneous.</p>\n<h2>Hosting</h2>\n<p>I also tried <a href=\"https://vercel.com/\">vercel</a> to host this blog. Hosting was extremely simple and easy. Setting the custom domain also was easy. Probably the best hosting service I've used so far.</p>\n<h2>Other stuff</h2>\n<p>I made a <a href=\"https://github.com/K-Sato1995/md-to-json-converter\">package</a> that converts markdown files into JSON for this.</p>\n",
-      "title": "てすと",
-      "date": "2022-03-08T00:00:00.000Z",
-      "description": "テスト",
+      "body": "<h2>Introduction</h2>\n<p>Hello World, and welcome to my blog!</p>\n<p>I'm excited to have you here as I share my journey and exporations in the realm of development and research.</p>\n<p>My primary goalo is to document my experiences, findings, and knowledge to not only helop myself retain what I learn but to also contribute to the community of developers and researchers alike who might find these entries useful.</p>\n<h2>About Me</h2>\n<p>Just to introduce myself - I'm crrently a fouth-year undergraduate student at Tokyo City University where I am conducting research on automatic composition. Additionally, I'm working as an assistant at the Japan Agency for Marine-Earch Science and Technology.</p>\n<p>When I'm not immersed in my research or work, I indulge in my hobby of web development. This creative outlet allows me to explore new concepts, experiment with cutting-edge technologies, and refine my skills.</p>\n<p><br /></p>\n<h3>I hope that the content I share will be useful, inspiring, and contribute to your own development and research journey!!</h3>\n",
+      "title": "Kicking off my journey!",
+      "date": "2023-07-15T00:00:00.000Z",
+      "description": "Hello World!",
       "isCompleted": true,
-      "slug": "lets-start-building",
+      "slug": "hello-world",
       "tags": [
         "svelte",
         "sveltekit",
