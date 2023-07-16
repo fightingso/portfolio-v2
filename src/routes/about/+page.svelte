@@ -2,6 +2,7 @@
   import { MetaTags } from "svelte-meta-tags";
   import { envVariables } from "$lib/envVariables";
   import { blogMetaData } from "$lib/blogMetaData";
+  import Paper from "$lib/components/Paper.svelte";
 
   const meta = {
     title: `About | ${blogMetaData.blogTitle}`,
@@ -124,6 +125,7 @@
           </a>
         </li>
       </ul>
+      <Paper />
   </div>
 </div>
 
