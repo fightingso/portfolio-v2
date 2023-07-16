@@ -1,9 +1,10 @@
 <script lang="ts">
   export let post: Post;
   import { format } from "fecha";
+  import { fade } from "svelte/transition";
 </script>
 
-<div class="post-detail">
+<div class="post-detail" in:fade={{ duration: 1000 }}>
   <div class="post-detail__top">
     <h1 class="post-detail__top__title">{post.title}</h1>
 

@@ -3,12 +3,12 @@
   <div class="award">
     <p>2023-01</p>
     <p class="name">Third Place</p>
-    <p> - SD-PBL(3) Final presentation</p>
+    <p class="place">SD-PBL(3) Final presentation</p>
   </div>
   <div class="award">
     <p>2022-11</p>
     <p class="name">Excellence Award</p>
-    <p> - Tokyo City University Research Presentation Contest</p>
+    <p class="place">Tokyo City University Research Presentation Contest</p>
   </div>
 </div>
 
@@ -27,6 +27,11 @@
 .name {
   font-weight: bold;
   margin-top: 5px;
+}
+
+.place {
+  font-size: 0.9em;
+  color: #666;
 }
 
 p {

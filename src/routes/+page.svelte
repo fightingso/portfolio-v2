@@ -3,6 +3,7 @@
   import { envVariables } from "$lib/envVariables";
   import { blogMetaData } from "$lib/blogMetaData";
   import { MetaTags } from "svelte-meta-tags";
+  import { fade } from "svelte/transition";
   import PostList from "$lib/components/PostList.svelte";
   import PostItem from "$lib/components/Post.svelte";
 
