@@ -50,7 +50,7 @@
   <div class="about-content">
     <h1 class="about-title">About</h1>
     <p class="about-text">
-    I'm a university student at the University of
+    I'm a university student at the
       <a
         href="https://www.tcu.ac.jp/english/"
         target="_blank"
