@@ -26,6 +26,7 @@
 
 .paper h3 {
   margin-bottom: 5px;
+  font-size: 1.0em;
 }
 
 .paper p {
