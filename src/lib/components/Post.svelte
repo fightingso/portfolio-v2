@@ -5,11 +5,11 @@
 
 <div class="post-item">
   <p class="post-item__date">{format(new Date(post.date), "MMMM DD, YYYY")}</p>
-  <h2 class="post-item__title">
+  <p class="post-item__title">
     <a class="post-item__title__link" href={`/blog/${post.slug}`}
       >{post.title}</a
     >
-  </h2>
+  </p>
   <p class="post-item__description">{post.description}</p>
 </div>
 
