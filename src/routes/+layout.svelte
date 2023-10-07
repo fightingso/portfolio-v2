@@ -3,12 +3,10 @@
   import MainView from "$lib/components/MainView.svelte";
   import Container from "$lib/components/Container.svelte";
   import Content from "$lib/components/Content.svelte";
-  import Footer from "$lib/components/Footer.svelte";
 </script>
 
 <Container>
   <MainView />
-  <Footer />
 </Container>
 
 <style>

@@ -34,6 +34,7 @@
 
   @media (max-width: 768px) {
     section {
+      width: 350px;
       flex-direction: column;
       justify-content: center;
       align-items: center;
