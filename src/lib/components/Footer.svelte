@@ -8,39 +8,20 @@
 
 <style>
   .footer {
-    height: 6rem;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    font-family: cursive;
+    position: fixed;
+    bottom: 0;
+    right: 60px;
+    z-index: 1000;
+    color: #555;
   }
 
   .footer__links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     list-style: none;
   }
 
-  .footer__links_item {
-    margin-left: 1rem;
-  }
-
-  .footer__links_item:last-child {
-    margin-right: 1rem;
-  }
-
-  .footer__links__item__link {
-    padding-bottom: 0.2rem;
-    color: var(--secondary-color);
-    text-decoration: none;
-  }
-
-  .footer__links__item__link:hover {
-    border-bottom: 1.5px solid var(--secondary-color);
-  }
-
-  .footer__copy-right {
-    color: var(--secondary-color);
+  @media screen and (max-width: 768px) {
+    .footer {
+      width: 100%;
+    }
   }
 </style>
