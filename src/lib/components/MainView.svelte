@@ -1,11 +1,13 @@
 <script lang="ts">
   import Name from './Name.svelte';
   import NeuralNet from './NeuralNet.svelte';
+  import ScrollIcon from './ScrollIcon.svelte';
 </script>
 
 <section>
   <Name />
   <NeuralNet />
+  <ScrollIcon />
 </section>
 
 <style>
