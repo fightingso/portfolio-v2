@@ -1,12 +1,14 @@
 <script>
   import "$lib/assets/styles/global.css";
   import MainView from "$lib/components/MainView.svelte";
+  import AboutView from "$lib/components/AboutView.svelte";
   import Container from "$lib/components/Container.svelte";
   import Content from "$lib/components/Content.svelte";
 </script>
 
 <Container>
   <MainView />
+  <AboutView />
 </Container>
 
 <style>
