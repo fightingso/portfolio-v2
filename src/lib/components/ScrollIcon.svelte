@@ -1,22 +1,3 @@
-<script>
-  import { onMount } from "svelte";
-  import anime from "animejs";
-
-  let arrow;
-
-  onMount(() => {
-    // 矢印の上下移動のアニメーション
-    anime({
-      targets: arrow,
-      translateY: [-10, 10],
-      direction: "alternate",
-      loop: true,
-      easing: "easeInOutSine",
-      duration: 1000,
-    });
-  });
-</script>
-
 <style>
   .container {
     position: fixed;
@@ -78,6 +59,12 @@
     width: 2px;
     height: 100px;
     background: #aaa;
+  }
+
+  @media screen and (max-width: 768px) {
+    .scrolldown {
+      display: none;
+    }
   }
 </style>
 
