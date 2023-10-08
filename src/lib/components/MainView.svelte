@@ -57,8 +57,8 @@
 
     :global(.neural-net) {
       position: absolute;
-      margin-top: 200px;
-      width: 400px;
+      margin-top: 150px;
+      width: 300px;
       height: 100%;
       display: flex;
       justify-content: center;

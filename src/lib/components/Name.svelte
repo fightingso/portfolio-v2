@@ -55,6 +55,15 @@
   @media (max-width: 768px) {
     .ml15 {
       width: 400px;
+      margin-bottom: 20px;
+    }
+
+    .ml15 .word {
+      font-size: 60px;
+    }
+
+    .ml15 .word:nth-child(2) {
+      margin-left: 20px;
     }
   }
 </style>
