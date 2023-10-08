@@ -59,7 +59,6 @@
     h1 {
       font-size: 4rem;
       padding-top: 30vh;
-      padding-left: 5vw;
       margin: 0 auto;
     }
 
