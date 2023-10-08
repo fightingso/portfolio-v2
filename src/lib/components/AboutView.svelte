@@ -4,9 +4,13 @@
 <section>
   <h1>About me</h1>
   <p>
-    I'm currently working at <a href="https://www.jamstec.go.jp/e/">Japan Agency for Marine-Earth Science and Technology</a> as a research assistant.
-    I'm also a student at <a href="https://www.tcu.ac.jp/english/">Tokyo City University</a> where I'm studying Informatics.
+    I'm So Hirawata, a student at <a href="https://www.tcu.ac.jp/english/">Tokyo City University</a> and a research assistant at <a href="https://www.jamstec.go.jp/e/">Japan Agency for Marine-Earth Science and Technology</a>.
   </p>
+  <div class="icons">
+    <a href="https://github.com/fightingsou"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/fightingsou"><i class="fab fa-twitter"></i></a>
+    <a href="https://instagram.com/hirawataso"><i class="fab fa-instagram"></i></a>
+  </div>
 </section>
 
 <style>
@@ -37,6 +41,18 @@
     max-width: 50vw;
     text-align: center;
     margin: 0 auto;
+  }
+
+  .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+  }
+
+  .icons a {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin: 0 1vw;
   }
 
   @media screen and (max-width: 600px) {
